@@ -6,11 +6,11 @@
     <link href="_css/styles.css" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <h1>Comp 484</h1>
-    <h2>Creating Links</h2>
+    <h2>Comp 484 Creating Links</h2>
     <ul>
       <li><a href="index.html" title="Introduction to HTML">Introduction to HTML</a></li>
       <li><a href="syntax.html" title="HTML syntax">HTML syntax</a></li>
+      <li><a href="structure.html" title="Structuring pages">Structuring pages</a></li>
       <li><a href="links.html" title="Creating links">Creating links</a></li>
       <li><a href="reference.html" title="HTML Reference">HTML reference</a></li>
       <li><a href="next.html" title="Next steps">Next steps</a></li>
@@ -21,7 +21,7 @@
       This is the basic concept underlying   the web and without this functionality the World Wide Web would not exist. 
     </p>
 
-    <h3>Link syntax</h3>
+    <h1>Link syntax</h1>
 
     <p>
       Creating links is relatively straightforward, and the syntax provides a lot of flexibility in where and how links are applied. 
@@ -31,7 +31,7 @@
     <pre>&lt;a href=&rdquo;syntax.htm&rdquo; title=&rdquo;learn more about syntax&rdquo;&gt;HTML syntax&lt;/a&gt;</pre>
     <p>Here the text &ldquo;HTML syntax&rdquo; would now appear as a clickable link. The <b>href</b> attribute tells the browser how to <em>resolve</em> the link; that is where the user should be directed when the link is clicked. The optional <b>title</b> attribute provides a description of the link and is helpful in making the link more accessible.</p>
 
-    <h3>Link types</h3>
+    <h1>Link types</h1>
 
     <p>
       There are three basic types of link: <b>absolute</b>, <b>site-root relative</b>, and <b>document relative</b>. 
@@ -39,7 +39,7 @@
       browser should resolve a link once the link has been clicked. 
     </p>
 
-    <h3>Absolute links</h3>
+    <h1>Absolute links</h1>
 
     <p>
       These links contain the entire URL necessary to resolve a link, including the protocol. 
@@ -48,7 +48,7 @@
     </p>
     <pre>&lt;a href=&rdquo;http://www.google.com&rdquo; title=&rdquo;You can find it at google.com!&rdquo;&gt;google.com&lt;/a&gt;</pre>
 
-    <h3>Document relative links</h3>
+    <h1>Document relative links</h1>
 
     <p>
       These links are commonly used to navigate internally within a site. For example, if you were on the home page of your site, 
@@ -75,7 +75,7 @@
       You can use as many of these &ldquo;../&rdquo; as you need to move up and properly resolve the link.
     </p>
 
-    <h3>Site-Root Relative Links</h3>
+    <h1>Site-Root Relative Links</h1>
 
     <p> 
       These are similar to document relative links, but start at the root folder for the site and then move down through directories to the desired page. 
@@ -91,7 +91,7 @@
     </p>
     <pre>&lt;a href=&rdquo;/resources/contact.htm&rdquo; title=&rdquo;our contact page&rdquo;&gt;Contact us&lt;/a&gt;</pre>
 
-    <h3>Fragment identifiers</h3>
+    <h1>Fragment identifiers</h1>
 
     <p>
       Occasionally you&rsquo;ll want a link to refer to a specific location within a page. 
@@ -116,6 +116,6 @@
     <pre>&lt;a href=&rdquo;faq.htm#camp&rdquo;&gt;Read our FAQ on camping.&lt;/a&gt;</pre>
 
     <br />
-    
+
   </body>
 </html>
